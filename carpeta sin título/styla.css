@@ -1,0 +1,134 @@
+
+.pokemon-todos{
+   gap: 1rem;
+   grid-template-columns:  1fr 1fr 1fr;
+   
+    
+     display: grid;
+    
+}
+.pokemon{
+    border-radius: 1rem;
+    background-color: var(--c1r-white);
+     box-shadow: 0 0 1rem;
+     padding-block: 1rem;
+     isolation: isolate;
+     position: relative;
+     
+     
+     
+     
+}
+
+.pokemon-id-back{
+    position: absolute;
+    top:  1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6rem;
+    font-weight: 900;
+    z-index: -2;
+    color: rgb(169, 164, 164);
+   
+   
+}
+
+
+.dodo img{
+    width:100%;
+    max-width: 10rem ;
+}
+.dodo{
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.pokemon-info{
+    display: flex;
+    flex-direction: column;
+    gap: .0rem;
+    padding-inline: 1rem;
+    align-items: center;
+    text-align: center;
+
+}
+.nombre-contenedor{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+.pokemon-id{
+    background-color: rgb(225, 220, 220);
+    padding: .25rem  .5rem;
+    border-radius: 100vmax;
+    font-size: .75rem;
+    font-weight: 500%;
+}.pokemon-nombre{
+    font-size: 1.4rem;
+}
+.pokemon-tipos{
+    display: flex;
+    gap: .5rem;
+    font-size: .75rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tipo{
+    padding: .25rem  .5rem;
+    border-radius: 100vmax;
+}
+.pokemon-stats{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+}
+.stat{
+    background-color: rgb(225, 220, 220);
+    padding: .25rem  .5rem;
+    border-radius: 100vmax;
+}
+.fire{
+    background-color: rgb(182, 121, 47);
+}
+
+.electric{
+background-color: rgb(206, 206, 67);
+}
+.btn.todos{
+background-color: rgba(202, 255, 255, 0);
+
+}
+
+
+.water{
+    background-color: rgb(41, 129, 217);
+}
+.ground{
+    background-color: greenyellow;
+}
+
+.fairy{
+    background-color: pink;
+}
+.normal{
+    background-color: azure;
+}
+.dragon{
+    background-color: rgb(183, 107, 14);
+}
+.steel{
+    background-color: gray;
+}
+.grass{
+    background-color: rgb(35, 187, 35);
+}
+.rock{
+    background-color: rgb(148, 142, 142);
+}
+.poison{
+    background-color: rgb(65, 134, 111);
+}
+.fighting{
+    background-color: red;
+}
